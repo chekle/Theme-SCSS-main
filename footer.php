@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-12">
           <div class="left">
-            <img src="<?php bloginfo('template_directory'); ?>/images/logo.svg"/>
+            <img src="<?php bloginfo('template_directory'); ?>/images/logo.svg" alt="Logo"/>
           </div>
           <div class="right">
             <div class="social">
