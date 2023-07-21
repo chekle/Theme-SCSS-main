@@ -1,0 +1,41 @@
+#footer{
+  #footer-body{
+    margin-top:60px;
+    margin-bottom:60px;
+    .col-12{
+      display:flex;
+      justify-content: space-between;
+      .right{
+        
+      }
+    }
+  }
+  #footer-terms{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top:1px solid $delta;
+    padding-top:22px;
+    padding-bottom:22px;
+    .col-12{
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+      .left{
+        display:flex;
+      }
+      .right{
+        .site-by{
+          text-align: right;
+          display: block;
+          color:$alpha;
+          text-decoration: none;
+          &:hover{
+            color:$bravo;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
